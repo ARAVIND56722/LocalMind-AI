@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --paper-50: #FDFAF5;
+    --paper-100: #F7F3EB;
+    --paper-200: #EDE6D8;
+    --paper-300: #DED3BF;
+    --ink-900: #1B1E1B;
+    --ink-800: #2C302B;
+    --ink-600: #585F56;
+    --ink-400: #889086;
+    --vermilion: #E05338;
+    --vermilion-light: #FCECE9;
+    --vermilion-hover: #C63D23;
+    --sage: #B4CE5F;
+    --sage-subtle: #F4F8E5;
+  }
+
+  body {
+    background-color: var(--paper-100);
+    color: var(--ink-900);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Custom editorial typography utility classes */
+.font-serif-editorial {
+  font-family: "Georgia", "Cambria", "Times New Roman", Times, serif;
+}
+
+.border-subtle {
+  border-color: rgba(44, 48, 43, 0.1);
+}
+
+.shadow-editorial {
+  box-shadow: 0 4px 20px -2px rgba(44, 48, 43, 0.06), 0 2px 6px -1px rgba(44, 48, 43, 0.04);
+}
+
+.shadow-card {
+  box-shadow: 0 1px 3px 0 rgba(44, 48, 43, 0.05), 0 1px 2px -1px rgba(44, 48, 43, 0.05);
+}

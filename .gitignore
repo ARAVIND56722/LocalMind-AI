@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+*.db
+*.sqlite3
+lenny_growth.db
+node_modules/
+dist/
+.env
+.DS_Store
+*.log
+data/retrieval_index.json
